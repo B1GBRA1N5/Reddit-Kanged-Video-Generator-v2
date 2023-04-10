@@ -6,8 +6,8 @@ import time
 from videoscript import VideoScript
 
 # Configuration variables
-CLIENT_ID = "w4rsuicptWiJBAYePp7j1A"
-CLIENT_SECRET = "TDJCNOQNpTqerZ8T_SKkE_08bIVqsA"
+CLIENT_ID = "Reddit client id here"
+CLIENT_SECRET = "Reddit client secret here"
 USER_AGENT = "Window11:TestApp:v0.1 by u/Double-Objective5076" 
 SUBREDDIT = "askreddit"
 
