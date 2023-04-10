@@ -76,5 +76,6 @@ def __getExistingPostIds(outputDir):
     files = os.listdir(outputDir)
     # I'm sure anyone knowledgeable on python hates this. I had some weird 
     # issues and frankly didn't care to troubleshoot. It works though...
+    # Any optimizations are invited if they work
     files = [f for f in files if os.path.isfile(outputDir+'/'+f)]
     return [re.sub(r'.*?-', '', file) for file in files]
