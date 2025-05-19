@@ -1,10 +1,5 @@
 # Reddit Video Generator
 
-*This project is further explained in [this video](https://youtu.be/ZmSb3LZDdf0)*
-
-*This code is meant only for educational reference and will not be maintained*
-
----
 This program generates a .mp4 video automatically by querying the top post on the
 r/askreddit subreddit, and grabbing several comments. To use this program:
 - Install dependencies
